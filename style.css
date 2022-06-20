@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffffcc;
+}
+
+body {
+    background-color: #070b23;
+}
+
+/* HEADER and NAVIGATION */
+
+.top-nav {
+    height: 80px;
+    width: 100%;
+}
+
+.left-nav {
+    float: left;
+    height: 100%;
+}
+
+.right-nav {
+    float: right;
+    position: relative;
+    height: 100%;
+    right: 20px;
+}
+
+.right-nav a {
+    position: relative;
+    top: 40%;
+    color: 	#ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.right-nav a:hover {
+    color: rgb(147, 158, 255);
+}
+
+#resume {
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+#resume:hover {
+    border-color:rgb(147, 158, 255);
+}
+
+#logo {
+    position: relative;
+    top: 15px;
+    left: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* HOME PAGE */
+
+#particles-js {
+    height: 100%;
+    width: 80%;
+}
+
+#intro-1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    text-align: left;
+    color: rgb(147, 158, 255);
+}
+
+#portrait {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    position: absolute;
+    top: 175px;
+    right: 175px;
+}
+#intro-2 {
+    text-align: left;
+    position: absolute;
+    top: 400px;
+    left: 425px;
+    color: rgb(147, 158, 255);
+}
+
+.larger, .largest {
+    color: white;
+    font-family: 'Alex Brush', cursive;
+    font-size: 500%;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    float: left;
+    position: fixed;
+    left: 3%;
+    -webkit-transform: translateY(-150%);
+    -ms-transform: translateY(-150%);
+    transform: translateY(-150%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    font-size: 20px;
+    color:rgb(147, 158, 255);
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    color: pink;
+  }
+  #facebook {
+  }
+  
+  #linkedin {
+  }
+
+  #github {
+    
+  }
+  #media-vert {
+    width: 3px;
+  }
+h1 {
+    color: #ffffff;
+    font-family: 'Charis SIL', serif;;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px 0px 20px 0px;
+    display: flex;
+}
+
+.right-headers:before {
+    color:white;
+    content:'';
+    flex: 1;
+    border-bottom: groove 2px;
+    margin: auto 20px auto 0px;
+    box-shadow: 0 -1px ;
+}
+
+.left-headers:after {
+    color:rgb(255, 255, 255);
+    content:'';
+    flex: 1;
+    border-bottom: groove 2px;
+    margin: auto 0px auto 20px;
+    box-shadow: 0 -1px ;
+}
+.page {
+    background-color: #070b23;
+    width: 80%;
+    margin: 0px auto;
+    height: 675px;
+}
+
+#about {
+    background-color: #070b23;
+}
+
+#cos {
+    position: relative;
+    top: 5%;
+    width: 45%;
+    height: 75%;
+}
+#about p {
+    position: relative;
+    top: 10%;
+    float: right;
+    width: 40%;
+    line-height: 2;
+}
+
+#projects p {
+    margin: 10px 0px 20px 0;
+
+}
+
+.college-year {
+    margin: 10px 0;
+    text-decoration: underline;
+    font-size: 20px;
+} 
+
+.term {
+    margin: 5px 0;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.course {
+    margin: 5px 0;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+#skills {
+}
+
+#contact {
+}
+

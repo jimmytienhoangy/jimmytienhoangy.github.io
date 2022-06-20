@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jimmy Hoang | Portfolio</title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Charis+SIL&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header class="top-nav">
+            <nav class="left-nav">
+                <a href=""><img id="logo" src="jhlogo.png"></a>
+            </nav>
+
+            <nav class="right-nav">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+                <a href="Resumé - Jimmy Hoang.pdf" id="resume" download>Resumé</a>
+            </nav>
+        </header>
+
+        <div class="page" id="particles-js">
+                <p id="intro-1"></p><br>
+                <img id="portrait" src="prom.jpg" style="display:none" alt="Photo of Jimmy"/>
+                <p id="intro-2"></p><br>
+        </div>
+
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+        <script>
+            var typed1 = new Typed("#intro-1", {
+                strings: ["Hi,^300 my name is <br><br><span class='largest'>Jimmy Hoang.</span>"],
+                typeSpeed: 60,
+                showCursor: false,
+            });
+
+            setTimeout(function() {
+                document.getElementById('portrait').style.display = 'block';
+            }, 2900);
+
+            var typed2 = new Typed("#intro-2", {
+                strings: ["^3500 I really love <br><span class='larger'> coding.</span>"],
+                typeSpeed: 60,
+                showCursor: false,
+            });
+        </script>
+
+        <!-- The social media icon bar -->
+        <div class="icon-bar">
+            <a href="https://www.facebook.com/jimmy.hoang.35513" id="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/jimmyhoangy/" id="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/jimmytienhoangy" id="github"><i class="fa fa-github"></i></a>
+        </div>
+        <hr id="media-vert">
+
+        <div class="page" id="about">
+            <h1 class="left-headers">About Me</h1>
+            <img id="cos" src="Declaration.jpg" alt="Photo of Jimmy"/>
+            <p> I am a rising junior at Princeton University pursuing a Bachelor's Degree
+            in Computer Science and, possibly, a certificate in Statistics and Machine Learning. 
+            Having no prior coding experience going into college, I challenged myself 
+            freshman year with my first coding courses and loved them, despite being virtually taught. 
+            Fast forward to now, I am currently searching for internship opportunities to gain vital 
+            hands-on experience and to expand my technical skills. During my free time, I enjoy 
+            learning new programming languages and have recently started experimenting with web development!
+            </p>
+        </div>
+
+        <div class="page" id="projects">
+            <h1 class="right-headers">My Projects</h1>
+            <p>I have not done any individual projects but have completed relevant coursework and will continue 
+                to take higher level departmental courses that will equip me with working knowledge of programming 
+                skills and concepts. </p>
+                
+            <h3 class="college-year">Freshman Year</h3>
+            <ul>
+                <li class="term">Fall</li>
+                    <ul>
+                        <li class="course">COS 126: Computer Science: An Interdisciplinary Approach</li>
+                    </ul>
+                <li class="term">Spring</li>
+                    <ul>
+                        <li class="course">COS 217: Introduction to Programming Systems</li>
+                    </ul>
+            </ul>
+
+            <h3 class="college-year">Sophomore Year</h3>
+            <ul>
+                <li class="term">Fall</li>
+                    <ul>
+                        <li class="course">COS 226: Algorithms and Data Structures</li>
+                    </ul>
+                <li class="term">Spring</li>
+                    <ul>
+                        <li class="course">COS 240: Reasoning About Computation</li>
+                        <li class="course">COS 324: Introduction to Machine Learning</li>
+                        <li class="course">SML 201: Introduction to Data Science</li>
+                    </ul>
+            </ul>
+            
+            <h3 class="college-year">Junior Year</h3>
+            <ul>
+                <li class="term">Fall</li>
+                    <ul>
+                        <li class="course">COS 316: Principles of Computer Design</li>
+                        <li class="course">COS 326: Functional Programming</li>
+                        <li class="course">COS 333: Advanced Programming Techniques</li>
+                        <li class="course">ORF 245: Fundamentals of Statistics</li>
+                    </ul>
+            <!--    <li class="term">Spring</li>
+                    <ul>
+                        <li class="course"></li>
+                    </ul>
+            -->
+            </ul>
+            
+            <!--
+            <h3 class="college-year">Senior Year</h3>
+            <ul>
+                <li class="term">Fall</li>
+                    <ul>
+                        <li class="course"></li>
+                    </ul>
+                <li class="term">Spring</li>
+                    <ul>
+                        <li class="course"></li>
+                    </ul>
+            </ul>
+            -->
+
+            <!-- https://www.cs.princeton.edu/courses/archive/fall20/cos126/
+            
+            https://www.cs.princeton.edu/courses/archive/spring21/cos217/
+        
+            https://www.cs.princeton.edu/courses/archive/fall21/cos226/
+        -->
+        </div>
+
+        <div class="page" id="skills">
+            <h1 class="left-headers">My Skills</h1>
+            <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>R</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+
+        </div>
+
+        <div class="page" id="contact">
+            <h1 class="right-headers">My Contact Information</h1>
+            Links to my social media.
+        </div>
+    </body>
+</html>

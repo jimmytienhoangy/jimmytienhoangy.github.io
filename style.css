@@ -127,7 +127,7 @@ p {
     font-size: 500%;
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/* ICON BAR */
 .icon-bar {
     float: left;
     position: fixed;
@@ -135,33 +135,32 @@ p {
     -webkit-transform: translateY(-150%);
     -ms-transform: translateY(-150%);
     transform: translateY(-150%);
-  }
+}
   
-  /* Style the icon bar links */
-  .icon-bar a {
+.icon-bar a {
     display: block;
     text-align: center;
     padding: 16px;
     font-size: 20px;
-    color:rgb(147, 158, 255);
-  }
+}
   
-  /* Style the social media icons with color, if you want */
-  .icon-bar a:hover {
-    color: pink;
-  }
-  #facebook {
-  }
-  
-  #linkedin {
-  }
+.icon-bar a:hover {
 
-  #github {
+}
+
+#facebook {
+
+}
+  
+#linkedin {
+
+}
+
+#github {
     
-  }
-  #media-vert {
-    width: 3px;
-  }
+}
+
+/* PAGE HEADERS */
 h1 {
     color: #ffffff;
     font-family: 'Charis SIL', serif;;
@@ -189,12 +188,15 @@ h1 {
     margin: auto 0px auto 20px;
     box-shadow: 0 -1px ;
 }
+
 .page {
     background-color: #070b23;
     width: 80%;
     margin: 0px auto;
     height: 675px;
 }
+
+/* ABOUT PAGE */
 
 #about {
     background-color: #070b23;
@@ -213,6 +215,8 @@ h1 {
     width: 40%;
     line-height: 2;
 }
+
+/* PROJECTS PAGE */
 
 #projects p {
     margin: 10px 0px 20px 0;
@@ -237,9 +241,34 @@ h1 {
     margin-left: 35px;
 }
 
+/* SKILLS PAGE */
+
 #skills {
+
 }
 
+.language {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.language-img {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px;
+    height: 100px;
+    width: 100px;
+}
+
+.environment {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+/* CONTACT PAGE */
+
 #contact {
+
 }
 
